@@ -1,0 +1,24 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Echoes of the Infinite"
+    },
+    {
+      "id": 2,
+      "title": "Starlight Serenade"
+    },
+    {
+      "id": 3,
+      "title": "Rhythms of Reverie"
+    },
+    {
+      "id": 4,
+      "title": "Waves of Tranquility"
+    },
+    {
+      "id": 5,
+      "title": "Aurora Chronicles"
+    }
+  ]
+}

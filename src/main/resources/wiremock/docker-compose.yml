@@ -1,0 +1,11 @@
+version: '3'
+services:
+  wiremock:
+    image: wiremock/wiremock:latest
+    container_name: wiremock
+    ports:
+      - "8443:8443" # Map port 8443 on the host to 8443 in the container
+    volumes:
+      - ./mappings:/home/wiremock/mappings # Map the local mappings directory to the container
+      - ./__files:/home/wiremock/__files
+    command: ["--port", "8443"] # Run WireMock on port 8443
